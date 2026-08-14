@@ -111,5 +111,23 @@
 //         console.log("Department =", this.department);
 //     }
 // };
-
 // employee.display();
+
+//Array Method
+// Student Details
+
+let studentData = {
+    name: "Sakshi Pandey",
+    age: 19,
+    branch: "CSE (AIML)",
+    college: "ABES Engineering College",
+    year: 2
+};
+console.log("Student Details:");
+console.log(studentData);
+// Add/Update course
+studentData.course = "B.Tech.";
+console.log(studentData);
+// Delete age
+delete studentData.age;
+console.log(studentData);
