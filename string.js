@@ -38,4 +38,8 @@ let last="Pandey";
 let fullName=first.concat(" ",last);
 console.log("Full Name=",fullName);
 
+//includes
+//let course="JavaScript";
+//console.log(course.includes("Script"));
+
 

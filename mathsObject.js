@@ -1,0 +1,11 @@
+console.log("===== maths object=====");
+ console.log("PI=" + Math.PI);
+ console.log("round=" + Math.round(4.7));
+ console.log("ceil=" + Math.ceil(4.2));
+ console.log("floor=" + Math.floor(4.8));
+ console.log("random=" + Math.random());
+ console.log("min=" + Math.min(4, 7, 1, 9));
+ console.log("max=" + Math.max(4, 7, 1, 9));
+ console.log("sqrt=" + Math.sqrt(16));
+ console.log("abs=" + Math.abs(-5));
+ console.log("pow=" + Math.pow(2, 3));
