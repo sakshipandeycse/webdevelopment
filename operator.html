@@ -1,0 +1,51 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rest, Spread and NOT</title>
+</head>
+
+<body>
+
+    <h2>JavaScript Operators</h2>
+
+    <button onclick="calculate()">Calculate Sum</button>
+
+    <p id="result"></p>
+
+    <script>
+
+        // Rest Operator (...) collects values
+        function sum(...numbers) {
+
+            let total = 0;
+
+            for (let n of numbers) {
+                total = total + n;
+            }
+
+            return total;
+        }
+
+        function calculate() {
+
+            // Array
+            let numbers = [10, 20, 30, 40];
+
+            // Spread Operator (...) spreads array values
+            let result = sum(...numbers);
+
+            // NOT Operator (!) reverses true/false
+            let check = !(result > 50);
+
+            document.getElementById("result").innerHTML =
+                "Numbers: " + numbers + "<br>" +
+                "Sum: " + result + "<br>" +
+                "NOT (Sum > 50): " + check;
+        }
+
+    </script>
+
+</body>
+</html>
+```
